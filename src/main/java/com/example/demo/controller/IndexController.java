@@ -14,6 +14,6 @@ public class IndexController {
     @GetMapping("index")
     public String index() {
         System.out.println("url === "+url);
-        return "success";
+        return url;
     }
 }
